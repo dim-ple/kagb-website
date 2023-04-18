@@ -1,0 +1,174 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #038C33;
+    text-align: center;
+    font-family: "massilia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+h2 {
+    color: #038C33;
+    font-family: "dunbar-low", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+}
+
+p {
+    color: #038C33;
+    text-align: center;
+    font-family: "dunbar-low", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 150px;
+}
+
+img.logo {
+    float: left;
+}
+
+nav ul {
+    padding: 100px 0px 10px 0px;
+    margin: 0;
+    float: right;
+    
+}
+
+nav li {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: "massilia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    list-style-type: none;
+    float: left; 
+    padding: 10px 20px 0px 0px; 
+}
+
+main {
+    width: auto;
+    height: 950px;
+}
+
+.btn {
+    color: white;
+    text-align: center;
+    font-family: "massilia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    width: 92%;
+}
+
+a.nav:link, a.nav:visited {
+    color: black;
+    text-decoration: none; 
+}
+
+a.nav:hover, a.nav:active {
+    color: #B9D989;
+  }
+
+a.btn:link, a.btn:visited {
+    background-color: #D98032;
+    padding: 5px 15px; 
+    text-align: center;
+    text-decoration: none; 
+    color: white;
+}
+
+a.btn:hover, a.btn:active {
+    background-color: #B9D989;
+    color: white;
+}
+
+a.back-to-top:link, a.back-to-top:visited {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    left: 42%;
+}
+
+label {
+    color: black;
+    font-family: "dunbar-low", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+textarea{
+    position: relative;
+    top: 15px;
+}
+
+input {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#name {
+    width: 200px;
+}
+
+#contact-num {
+    width: 200px;
+}
+
+#email {
+    width: 300px;
+}
+
+#submit {
+    color: white;
+    background-color: #D98032;
+    text-align: center;
+    font-family: "massilia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    padding: 5px 15px; 
+    position: relative;
+    top: 20px;
+    left: 15%;
+}
+
+.footer-text {
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+.back-to-top {
+    position: relative;
+    bottom: 20px;
+}
+
+footer {
+    background-color: #D98032; 
+    height: 55px;
+    position: relative;
+}
+

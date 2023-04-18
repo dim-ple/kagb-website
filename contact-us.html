@@ -1,0 +1,56 @@
+<!--
+Name: Harrison Goehring
+Last Change: April 10th, 2023
+Course: ART 116 - Design for the Web I
+Description: This HTML will display my Contact Us form and page for the Keep a Greene Book website.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="keywords" content="Bookkeeping, Payroll, Tax, Accounting">
+        <meta name="author" content="Harrison Goehring">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://use.typekit.net/teo6qyq.css"> <!-- Imports our Adobe Fonts for use on our home page -->
+        <link rel="stylesheet" type="text/css" href="css/contact-us.css"> <!-- Links to our CSS Stylesheet -->
+        <title>Contact Us | KAGB Bookeeping</title>
+    </head>
+    <body>
+        <header>
+            <nav id="navigation">
+                <a href="index.html"><img class="logo" src="images/logo.png" alt="a logo for the business that shows a calculator, ledger book and the name of the business" width="190" height="190"></a>
+                <ul class= "primary-navigation">
+                    <li><a class="nav" href="#">About Us</a></li>
+                    <li><a class="nav" href="#">Our Services</a></li>
+                    <li><a class="nav" href="contact-us.html">Contact Us</a></li>
+                    <li><a class="nav" href="#">Testimonials</a></li>
+                    <li><a class="btn" href="#" target="_blank">Get Started</a></li>
+                </ul>
+        </nav>
+        </header>
+        <main>
+            <form>
+                <label for="name">Your Name:</label><br>
+                <br>
+                <input type="text" id="name" name="name"><br>
+                <br>
+                <label for="contact-num">Your Phone Number:</label><br>
+                <br>
+                <input type="text" id="contact-num" name="contact-num" minlength="10"><br>
+                <br>
+                <label for="email">Your E-mail Address:</label><br>
+                <br>
+                <input type="email" id="email" name="email" ><br>
+                <br>
+                <label for="msg">Your Message:</label><br>
+                <textarea id="msg" name="msg" rows="20" cols="50">Enter your message here...</textarea><br>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </main>
+        <footer>
+            <p class="footer-text">&copy; Copyright 2023 Keep a Greene Book, LLC. All Rights Reserved.</p>
+            <p><a class="back-to-top" href="#navigation">Back to Top</a></p>  <!--Added a Back to Top Link-->
+            <!--Need to insert our soical media logos & links for Facebook & Instagram here-->
+        </footer>
+    </body>
+</html>
