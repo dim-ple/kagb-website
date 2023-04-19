@@ -20,17 +20,46 @@ h2 {
 }
 
 p {
-    color: #038C33;
+    color: white;
     text-align: center;
     font-family: "dunbar-low", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
+    font-size: 26px;
+}
+
+p.review {
+    background-color: #D98032;
+    text-align: center;
+    width: 30%;
+    padding: 10px 15px;
+}
+
+#first-review {
+    position: relative;
+    left: 30%;
+    top: 50px;
+}
+
+#second-review {
+    position: relative;
+    left: 30%;
+    top: 50px;
+}
+
+#third-review {
+    position: relative;
+    left: 30%;
+    top: 50px;
 }
 
 nav {
     width: 100%;
     height: 150px;
+}
+
+#get-started {
+    font-size: 20px;
 }
 
 img.logo {
@@ -68,7 +97,7 @@ main {
     font-family: "massilia", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 18px;
+    font-size: 32px;
     width: 92%;
 }
 
@@ -83,7 +112,7 @@ a.nav:hover, a.nav:active {
 
 a.btn:link, a.btn:visited {
     background-color: #D98032;
-    padding: 5px 15px; 
+    padding: 10px 15px; 
     text-align: center;
     text-decoration: none; 
     color: white;
@@ -94,63 +123,18 @@ a.btn:hover, a.btn:active {
     color: white;
 }
 
+
 a.back-to-top:link, a.back-to-top:visited {
     text-align: center;
     text-decoration: none;
     color: white;
 }
 
-form {
-    width: 50%;
-    position: absolute;
-    top: 200px;
-    left: 42%;
-}
-
-label {
-    color: black;
-    font-family: "dunbar-low", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 20px;
+p.submit-review {
+    padding: 50px;
+    font-size: 26px;
     position: relative;
-    padding-bottom: 15px;
-}
-
-textarea{
-    position: relative;
-    top: 15px;
-}
-
-input {
-    position: relative;
-    margin-bottom: 0px;
-}
-
-#name {
-    width: 200px;
-}
-
-#contact-num {
-    width: 200px;
-}
-
-#email {
-    width: 300px;
-}
-
-#submit {
-    color: white;
-    background-color: #D98032;
-    text-align: center;
-    font-family: "massilia", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
-    padding: 5px 15px; 
-    position: relative;
-    top: 20px;
-    left: 15%;
+    right: 35%;
 }
 
 .footer-text {
@@ -163,25 +147,41 @@ input {
 
 .back-to-top {
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
 }
 
 footer {
     background-color: #D98032; 
-    height: 55px;
+    height: 65px;
     position: relative;
+    top: 110px;
 }
 
 .fb-logo {
     float: right;
     position: relative;
-    bottom: 85px;
+    bottom: 110px;
     right: 20px;
 }
 
 .insta-logo {
     float: right;
     position: relative;
-    bottom: 85px;
+    bottom: 110px;
     right: 25px;
+}
+
+.first-star {
+    position: relative;
+    right: 115px;
+}
+
+.second-star {
+    position: relative;
+    left: 70px;
+}
+
+.third-star {
+    position: relative;
+    left: 70px;
 }
