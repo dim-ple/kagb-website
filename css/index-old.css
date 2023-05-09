@@ -1,0 +1,267 @@
+/* Set our body background to white */
+body {
+    background-color: white;
+}
+
+/* Sets our heading 1 font using our Adobe Font, Massilia, will default to Sans-Serif text if Massilia cannot be read */
+h1 {
+    color: #038C33;
+    text-align: center;
+    font-family: "massilia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+/* Sets our heading 2 font using our Adobe Font, Dunbar Low, will default to Sans-Serif text if Dunbar Low cannot be read */
+h2 {
+    color: #038C33;
+    text-align: center;
+    font-family: "dunbar-low", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+}
+
+/* Sets our paragraph font using our Adobe Font, Dunbar Low, will default to Sans-Serif text if Dunbar Low cannot be read */
+p {
+    color: #038C33;
+    text-align: center;
+    font-family: "dunbar-low", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 150px;
+}
+
+/* Style rules for our logo image within the nav */
+img.logo {
+    float: left;
+}
+
+/* Sets our ul within our nav to align to the right of the page, and padding between the element and the top of the page*/
+nav ul {
+    padding: 100px 0px 10px 0px;
+    margin: 0;
+    float: right;
+    
+}
+
+/* Style rules for our  li elements withing the nav, added padding between elements to make the nav look good when resized*/
+nav li {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: "massilia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    list-style-type: none;
+    float: left; /* Without the float left property, our li elements in the ul nav would appear in reverse order */
+    padding: 10px 20px 0px 0px; 
+}
+
+main {
+    width: 100%;
+    height: 800px;
+}
+
+/* Styling for the about-us section of our webpage */
+#about-us {
+    width: 100%;
+    height: 340px;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+.main-header {
+    float: left;
+    position: relative;
+    top: 60px;
+    left: 190px;
+    padding: 20px 0px 20px 20px;
+}
+
+.paragraph-header {
+    display: inline-block;
+    padding: 75px 75px;
+}
+
+.about-us-header {
+    position: relative;
+    bottom: 70px;
+    left: 225px;
+}
+
+.about-us-paragraph {
+    position: relative;
+    bottom: 80px;
+    left: 225px;
+}
+
+.top-image {
+    display: inline-block;
+    padding: 10px 25px 10px 100px;
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+
+.about-us-header {
+    padding: 5px 0px 
+}
+
+.book-appt {
+    position: relative;
+    bottom: 90px;
+    left: 225px;
+}
+
+#our-services {
+    width: 100%;
+    height: 300px;
+    padding: 20px 5px 10px 5px;
+    position: absolute;
+    top: 475px;
+    left: 20px;
+}
+
+.our-services-header {
+    padding: 5px 0px;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+}
+
+.our-services-paragraph {
+    position: relative;
+    bottom: 60px;
+    left: 200px;
+}
+
+.center-image {
+    display: inline-block;
+    padding: 10px 25px 10px 100px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+
+#contact-us {
+    width: 100%;
+    height: 340px;
+    padding: 20px 5px 10px 5px;
+    position: absolute;
+    top: 850px;
+    right: 125px;
+}
+
+.contact-us-header {
+    position: relative;
+    bottom: 25px;
+    left: 250px;
+}
+
+.contact-us-paragraph {
+    position: relative;
+    bottom: 45px;
+    left: 250px;
+}
+
+.contact-us-btn {
+    position: relative;
+    bottom: 55px;
+    left: 250px;
+}
+
+.bottom-image {
+    display: inline-block;
+    padding: 10px 25px 10px 100px;
+    position: relative;
+    left: 275px;
+    top: 20px;
+}
+
+/* Sets the font type, color and align ment for the texts in any button on the page */
+.btn {
+    color: white;
+    text-align: center;
+    font-family: "massilia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    width: 92%;
+}
+
+a.nav:link, a.nav:visited {
+    color: black;
+    text-decoration: none; /* Removes the underline for our hyperlinks */
+}
+
+/* Saw this simple CSS code that gives the page a bit more style, changing the color of our hyperlinks when users mouse overtop of them
+   Thought this was cool so I added it, along with a color change within our color theme */
+a.nav:hover, a.nav:active {
+    color: #B9D989;
+}
+
+/* for our Get Started, Contact Us & Book Appointment link elements, I wanted to created a box shaped button */
+a.btn:link, a.btn:visited {
+    background-color: #D98032;
+    padding: 5px 15px; /* Padding used to create space between our text and the edges of the background shape of our button */
+    text-align: center;
+    text-decoration: none; 
+    color: white;
+}
+
+/* Using the same trick used for the nav links above, we change the background color and text color when the user hovers over the button */
+a.btn:hover, a.btn:active {
+    background-color: #B9D989;
+    color: white;
+}
+
+a.back-to-top:link, a.back-to-top:visited {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* Custom styling for our footer text  and the paragraph text will be showing on an orange background*/
+.footer-text {
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+.back-to-top {
+    position: relative;
+    bottom: 20px;
+}
+
+footer {
+    background-color: #D98032; /* sets out footer section background color to the orange in our color scheme */
+    width: 100%;
+    height: 65px;
+    position: relative;
+    top: 250px;
+}
+
+.fb-logo {
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 20px;
+}
+
+.insta-logo {
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 25px;
+}
