@@ -353,6 +353,7 @@ a.btn:hover, a.btn:active {
         padding-left: 10px;
         width: 292px;
         height: 329px;
+        object-fit: cover;
     }
 
     .top-content-container {
@@ -410,6 +411,7 @@ a.btn:hover, a.btn:active {
         position: relative;
         float: right;
         left: 5%;
+        object-fit: cover;
     }
 
     /* Bottom Section Content */
@@ -432,6 +434,7 @@ a.btn:hover, a.btn:active {
         position: relative;
         float: left;
         right: 13%;
+        object-fit: cover;
     }
 
     .contact-us-header {
